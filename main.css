@@ -19,19 +19,19 @@
     justify-content: space-between;
     border-bottom: 1px solid rgb(247, 229, 202);
     
-
-
 }
 
 .logo{
     color:blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
+    margin-left: 50px;
     padding-left: 30px;
     padding-top: 20px;
 }
 .nav-list{
    display: flex;
+   padding-right: 30px;
 }
 
 ul{
@@ -46,6 +46,7 @@ ul li{
     display:inline-block;
     list-style: none;
     margin:10px 10px;
+    padding-right: 20px;
     font-size: 15px;
     text-transform: uppercase;
 
@@ -57,7 +58,8 @@ ul li a{
 
 }
 ul li a:hover{
-    color: ghostwhite;
+    color: rgb(252, 233, 125,53, 248);
+    border-bottom:1px solid orange;
 
 }
 
@@ -66,9 +68,119 @@ ul li a:hover{
     align-content: center;
     justify-content: center;
     gap: 2rem;
-}
-img{
-    width 80%
-    height: 90%;
+    width: 100%;
     
 }
+
+.gallery{
+    display: flex;
+    width: 70%;
+
+}
+img{
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+span a{
+    text-decoration: none;
+    list-style: none;
+    color: orange;
+
+}
+
+span a:hover{
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: blanchedalmond;
+    background-color: orange;
+    padding: 5px;
+    margin-top: 50px;
+}
+.contentimage{
+    /* /* width: 450px; */
+    /* height: 500px;  */
+    margin:90px 0 20px 20px;
+}
+
+.description{
+    width: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 10px;
+    color: blanchedalmond;
+    margin-top:80px;
+}
+.action-btn{
+    display: flex;
+    align-items: center;
+    color: rgb(131, 89, 11);
+}
+h2{
+    color: blanchedalmond;
+    font-size: 50px;
+}
+
+hr{
+    width: 23px;
+    margin-right: 3px;
+    color:rgb(131, 89, 11) ;
+    /* margin-left: 10px; */
+    /* margin-top: 10px ; */
+}
+
+.links-btn{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    border-radius: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 1s;
+}
+
+.links-btn li:hover{
+    transform: scale(1.1);
+}
+ .btnpage{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 10rem;
+}
+ .btnpage li{
+     background-color: white;
+     border-radius: 100%;
+     
+ }
+ .links-btn h4{
+     font-size: 25px;
+     margin-top: 10rem;
+     margin-right: 30px;
+     display: flex;
+     justify-content: flex-end;
+     width: 100%;
+ }
+
+ #nextpage{
+     background-color: orange;
+ }
+/* .mainlist{
+    color: orange;
+} */
+
+
+
